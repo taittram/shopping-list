@@ -20,9 +20,7 @@ button {
 	border: none;
 	width: 60px;
 	height: 40px;
-	position: absolute;
-	margin-top: 40px;
-	margin-left: 115px;
+	margin: 0 auto;
 }
 
 .list {
@@ -30,30 +28,30 @@ button {
 }
 
 p {
-	padding: 15px;
+	padding: 12px 0 12px 0;
 	font-size: 1.2em;
 	border-bottom: 1px solid white;
 	position: relative;
 	width: 350px;
+	margin-left: 15px;
+}
+
+.box {
+	width: 380px;
 	margin: 0 auto;
 }
 
-/* ul li {
-	margin-right: 20%;
-	margin-left: 33.5%;
-	font-weight: 400;
-	list-style: none;
-	padding: 10px;
-	font-size: 1.2em;
-	border-bottom: 1px solid white;
-	max-width: 350px;
-} */
+.bawks {
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 15px;
+}
 
 .delete {
 	background-image: url('../image/delete.png');
 	background-repeat: no-repeat;
 	background-size: 25px 25px;
-	background-position: left center;
 	cursor: pointer;
 }
 
@@ -77,7 +75,7 @@ p {
 	border: none;
 	border-radius: 0;
 	background: #f0f0f0;
-	color: #aaa;
+	color: #fff;
 	font-weight: bold;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	-webkit-appearance: none; /* for box shadows to show on iOS */
@@ -129,8 +127,9 @@ p {
 }
 
 .input__field--hoshi {
+	font-weight: 300;
 	margin-top: 1em;
-	padding: 0.85em 0.15em;
+	padding: 0.85em 0;
 	width: 100%;
 	background: transparent;
 }
