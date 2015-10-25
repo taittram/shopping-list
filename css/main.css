@@ -19,9 +19,9 @@
 
 .item-enter {
 	background-image: url('../image/shop-list-box.jpg');
-	background-repeat: no-repeat;
-	height: 100px;
-	width: 100%;
+	background-repeat: repeat-y;
+	height: 900px;
+	width: 900px;
 	margin-top: 7%;
 	transform: rotate(-0.4deg);
 	position: absolute;
@@ -36,11 +36,12 @@
 
 .butters {
 	background-color: #F5F3F0;
-	border-color: #E5586E;
-	margin-left: 3.8%;
+	margin-top: -1%;
+	margin-left: 7.5%;
 	height: 53px;
 	width: 50px;
 	border-radius: 30%;
+	border: 3px solid #E5586E;
 }
 
 .items {
