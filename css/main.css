@@ -1,20 +1,13 @@
 html, body {
 	background-color: #FFA83B;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 .striked {
 	text-decoration: line-through;
-}
-
-.delete {
-	background-image: url('../image/delete.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	height: 40px;
-	width: 40px;
-	margin-top: 5px;
-	cursor: pointer;
+	color: black;
 }
 
 .content {
@@ -27,12 +20,41 @@ button {
 	border: none;
 	width: 60px;
 	height: 40px;
+	position: absolute;
+	margin-top: 40px;
+	margin-left: 115px;
 }
 
-ul li {
+.list {
+	padding-top: 20px;
+}
+
+p {
+	padding: 15px;
+	font-size: 1.2em;
+	border-bottom: 1px solid white;
+	position: relative;
+	width: 350px;
+	margin: 0 auto;
+}
+
+/* ul li {
+	margin-right: 20%;
+	margin-left: 33.5%;
+	font-weight: 400;
 	list-style: none;
 	padding: 10px;
 	font-size: 1.2em;
+	border-bottom: 1px solid white;
+	max-width: 350px;
+} */
+
+.delete {
+	background-image: url('../image/delete.png');
+	background-repeat: no-repeat;
+	background-size: 25px 25px;
+	background-position: left center;
+	cursor: pointer;
 }
 
 
