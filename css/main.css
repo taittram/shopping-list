@@ -1,5 +1,6 @@
-body {
+html, body {
 	background-color: #FFA83B;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .striked {
@@ -30,7 +31,10 @@ button {
 
 ul li {
 	list-style: none;
+	padding: 10px;
+	font-size: 1.2em;
 }
+
 
 /* Input style */
 .input {
@@ -39,7 +43,7 @@ ul li {
 	display: inline-block;
 	max-width: 350px;
 	width: calc(100% - 2em);
-	font-size: 1.5em;
+	font-size: 1.6em;
 }
 
 .input__field {
