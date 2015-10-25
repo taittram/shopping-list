@@ -1,0 +1,83 @@
+#bg {
+	background-image: url('../image/fridge.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+	width: 100%;
+	position: absolute;
+}
+
+.notepad {
+	background-image: url('../image/shop-list-title.jpg');
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100%;
+	margin-left: 24%;
+	margin-top: 5%;
+	transform: rotate(-0.3deg);
+}
+
+.item-enter {
+	background-image: url('../image/shop-list-box.jpg');
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100%;
+	margin-top: 7%;
+	transform: rotate(-0.4deg);
+	position: absolute;
+}
+
+.texteroo {
+	margin-left: 5%;
+	margin-top: 20px;
+	width: 500px;
+	transform: rotate(0.8deg);
+}
+
+.butters {
+	background-color: #F5F3F0;
+	border-color: #E5586E;
+	margin-left: 3.8%;
+	height: 53px;
+	width: 50px;
+	border-radius: 30%;
+}
+
+.items {
+	background-image: url('../image/shop-list-box.jpg');
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 100%;
+	margin-top: 12%;
+	transform: rotate(-0.4deg);
+	position: absolute;
+}
+
+ul {
+	margin-left: -3.15%;
+}
+
+ul li {
+	list-style: none;
+}
+
+.striked {
+	text-decoration: line-through;
+}
+
+.finished {
+	background-image: url('../image/finished.jpg');
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.box {
+	height: 48px;
+	width: 45px;
+	background-color: #F5F3F0;
+	border: 3px solid #E5586E;
+	border-radius: 30%;
+	position: absolute;
+	margin-left: 48.5%;
+	margin-top: 12%;
+}
