@@ -16,7 +16,9 @@ $(document).ready(function() {
 
 	// add to list
 	$("input").keydown(function() {
-		if (event.which == 13) {
+		var e = evt || event;
+    	var code = e.keyCode || e.which;
+		if (code == 13) {
 			var result = $("input").val();
 			if ($("div.box").length >= 1) {
 				$("div.box:last").clone().insertAfter(".box:last");
